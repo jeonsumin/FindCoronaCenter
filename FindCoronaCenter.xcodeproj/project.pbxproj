@@ -15,6 +15,13 @@
 		DE4C5F6227CFA68A0026F434 /* Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C5F6127CFA68A0026F434 /* Center.swift */; };
 		DE4C5F6427CFA8280026F434 /* CenterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C5F6327CFA8280026F434 /* CenterAPI.swift */; };
 		DE4C5F6727CFA9740026F434 /* CenterNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C5F6627CFA9740026F434 /* CenterNetwork.swift */; };
+		DE4C5F6927CFAC8B0026F434 /* SelectRegionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C5F6827CFAC8B0026F434 /* SelectRegionView.swift */; };
+		DE4C5F6B27CFAC960026F434 /* SelectRegionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C5F6A27CFAC960026F434 /* SelectRegionViewModel.swift */; };
+		DE4C5F6E27CFAE1E0026F434 /* SelectRegionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C5F6D27CFAE1E0026F434 /* SelectRegionItem.swift */; };
+		DE4C5F7027CFB10C0026F434 /* CenterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C5F6F27CFB10C0026F434 /* CenterRow.swift */; };
+		DE4C5F7227CFB2C30026F434 /* CenterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C5F7127CFB2C30026F434 /* CenterList.swift */; };
+		DE4C5F7727CFB5D20026F434 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C5F7627CFB5D20026F434 /* MapView.swift */; };
+		DE52218227CFBA8100ADDB16 /* CenterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE52218127CFBA8100ADDB16 /* CenterDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +34,13 @@
 		DE4C5F6127CFA68A0026F434 /* Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Center.swift; sourceTree = "<group>"; };
 		DE4C5F6327CFA8280026F434 /* CenterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAPI.swift; sourceTree = "<group>"; };
 		DE4C5F6627CFA9740026F434 /* CenterNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterNetwork.swift; sourceTree = "<group>"; };
+		DE4C5F6827CFAC8B0026F434 /* SelectRegionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRegionView.swift; sourceTree = "<group>"; };
+		DE4C5F6A27CFAC960026F434 /* SelectRegionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRegionViewModel.swift; sourceTree = "<group>"; };
+		DE4C5F6D27CFAE1E0026F434 /* SelectRegionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRegionItem.swift; sourceTree = "<group>"; };
+		DE4C5F6F27CFB10C0026F434 /* CenterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterRow.swift; sourceTree = "<group>"; };
+		DE4C5F7127CFB2C30026F434 /* CenterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterList.swift; sourceTree = "<group>"; };
+		DE4C5F7627CFB5D20026F434 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DE52218127CFBA8100ADDB16 /* CenterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,7 @@
 			children = (
 				DE4C5F6527CFA8360026F434 /* Network */,
 				DE4C5F5E27CFA6500026F434 /* Entities */,
+				DE4C5F6C27CFADDE0026F434 /* View */,
 				DE4C5F5027CFA6320026F434 /* FindCoronaCenterApp.swift */,
 				DE4C5F5227CFA6320026F434 /* ContentView.swift */,
 				DE4C5F5427CFA6340026F434 /* Assets.xcassets */,
@@ -93,6 +108,44 @@
 				DE4C5F6627CFA9740026F434 /* CenterNetwork.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		DE4C5F6C27CFADDE0026F434 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE52218027CFBA7400ADDB16 /* DetailView */,
+				DE4C5F7427CFB5C10026F434 /* CenterView */,
+				DE4C5F7327CFB5AF0026F434 /* SelectRegionView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE4C5F7327CFB5AF0026F434 /* SelectRegionView */ = {
+			isa = PBXGroup;
+			children = (
+				DE4C5F6827CFAC8B0026F434 /* SelectRegionView.swift */,
+				DE4C5F6A27CFAC960026F434 /* SelectRegionViewModel.swift */,
+				DE4C5F6D27CFAE1E0026F434 /* SelectRegionItem.swift */,
+			);
+			path = SelectRegionView;
+			sourceTree = "<group>";
+		};
+		DE4C5F7427CFB5C10026F434 /* CenterView */ = {
+			isa = PBXGroup;
+			children = (
+				DE4C5F6F27CFB10C0026F434 /* CenterRow.swift */,
+				DE4C5F7127CFB2C30026F434 /* CenterList.swift */,
+			);
+			path = CenterView;
+			sourceTree = "<group>";
+		};
+		DE52218027CFBA7400ADDB16 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				DE4C5F7627CFB5D20026F434 /* MapView.swift */,
+				DE52218127CFBA8100ADDB16 /* CenterDetailView.swift */,
+			);
+			path = DetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,10 +219,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE4C5F6227CFA68A0026F434 /* Center.swift in Sources */,
+				DE4C5F7727CFB5D20026F434 /* MapView.swift in Sources */,
+				DE4C5F6E27CFAE1E0026F434 /* SelectRegionItem.swift in Sources */,
+				DE4C5F7227CFB2C30026F434 /* CenterList.swift in Sources */,
 				DE4C5F6727CFA9740026F434 /* CenterNetwork.swift in Sources */,
+				DE52218227CFBA8100ADDB16 /* CenterDetailView.swift in Sources */,
+				DE4C5F7027CFB10C0026F434 /* CenterRow.swift in Sources */,
 				DE4C5F6427CFA8280026F434 /* CenterAPI.swift in Sources */,
 				DE4C5F5327CFA6320026F434 /* ContentView.swift in Sources */,
+				DE4C5F6927CFAC8B0026F434 /* SelectRegionView.swift in Sources */,
 				DE4C5F6027CFA66E0026F434 /* CenterAPIResponse.swift in Sources */,
+				DE4C5F6B27CFAC960026F434 /* SelectRegionViewModel.swift in Sources */,
 				DE4C5F5127CFA6320026F434 /* FindCoronaCenterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
