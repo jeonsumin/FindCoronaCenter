@@ -22,6 +22,7 @@ struct Center: Hashable, Decodable {
         case central = "중앙/권역"
         case local = "지역"
     }
+    
     enum Sido: String, Decodable, CaseIterable, Identifiable {
         case 서울특별시
         case 부산광역시
@@ -32,6 +33,7 @@ struct Center: Hashable, Decodable {
         case 울산광역시
         case 세종특별자치시
         case 경기도
+        case 강원도
         case 충청북도
         case 충청남도
         case 전라북도
