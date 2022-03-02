@@ -11,6 +11,10 @@
 		DE4C5F5327CFA6320026F434 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C5F5227CFA6320026F434 /* ContentView.swift */; };
 		DE4C5F5527CFA6340026F434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4C5F5427CFA6340026F434 /* Assets.xcassets */; };
 		DE4C5F5827CFA6340026F434 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4C5F5727CFA6340026F434 /* Preview Assets.xcassets */; };
+		DE4C5F6027CFA66E0026F434 /* CenterAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C5F5F27CFA66E0026F434 /* CenterAPIResponse.swift */; };
+		DE4C5F6227CFA68A0026F434 /* Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C5F6127CFA68A0026F434 /* Center.swift */; };
+		DE4C5F6427CFA8280026F434 /* CenterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C5F6327CFA8280026F434 /* CenterAPI.swift */; };
+		DE4C5F6727CFA9740026F434 /* CenterNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C5F6627CFA9740026F434 /* CenterNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		DE4C5F5227CFA6320026F434 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE4C5F5427CFA6340026F434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE4C5F5727CFA6340026F434 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE4C5F5F27CFA66E0026F434 /* CenterAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAPIResponse.swift; sourceTree = "<group>"; };
+		DE4C5F6127CFA68A0026F434 /* Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Center.swift; sourceTree = "<group>"; };
+		DE4C5F6327CFA8280026F434 /* CenterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAPI.swift; sourceTree = "<group>"; };
+		DE4C5F6627CFA9740026F434 /* CenterNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 		DE4C5F4F27CFA6320026F434 /* FindCoronaCenter */ = {
 			isa = PBXGroup;
 			children = (
+				DE4C5F6527CFA8360026F434 /* Network */,
+				DE4C5F5E27CFA6500026F434 /* Entities */,
 				DE4C5F5027CFA6320026F434 /* FindCoronaCenterApp.swift */,
 				DE4C5F5227CFA6320026F434 /* ContentView.swift */,
 				DE4C5F5427CFA6340026F434 /* Assets.xcassets */,
@@ -65,6 +75,24 @@
 				DE4C5F5727CFA6340026F434 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE4C5F5E27CFA6500026F434 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				DE4C5F5F27CFA66E0026F434 /* CenterAPIResponse.swift */,
+				DE4C5F6127CFA68A0026F434 /* Center.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		DE4C5F6527CFA8360026F434 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DE4C5F6327CFA8280026F434 /* CenterAPI.swift */,
+				DE4C5F6627CFA9740026F434 /* CenterNetwork.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE4C5F6227CFA68A0026F434 /* Center.swift in Sources */,
+				DE4C5F6727CFA9740026F434 /* CenterNetwork.swift in Sources */,
+				DE4C5F6427CFA8280026F434 /* CenterAPI.swift in Sources */,
 				DE4C5F5327CFA6320026F434 /* ContentView.swift in Sources */,
+				DE4C5F6027CFA66E0026F434 /* CenterAPIResponse.swift in Sources */,
 				DE4C5F5127CFA6320026F434 /* FindCoronaCenterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
