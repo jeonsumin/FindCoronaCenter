@@ -12,7 +12,7 @@ struct CenterList: View {
     
     var body: some View {
         List(center, id: \.id) { center in
-            NavigationLink(destination: CenterDetailView(center: center)){
+            NavigationLink(destination: CenterDetailView(center: center)) {
                 CenterRow(center: center)
             }
             .navigationTitle(center.sido.rawValue)

@@ -15,7 +15,7 @@ struct CenterDetailView: View {
         VStack {
             MapView(coordination: center.coordinate)
                 .ignoresSafeArea(edges: .all)
-                .frame(width: .infinity, height: .infinity)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
             CenterRow(center: center)
         }
         .navigationTitle(center.facilityName)
